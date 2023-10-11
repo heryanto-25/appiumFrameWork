@@ -54,7 +54,6 @@ class DemoAppTest(unittest.TestCase):
 
     @pytest.mark.run(order=2)
     def test_stepTwo(self):
-        time.sleep(5)
         self.df.ClickGallery()
         self.df.ChooseImg()
         self.df.ClickDone()
@@ -63,6 +62,7 @@ class DemoAppTest(unittest.TestCase):
         test1 = self.df.ScrollSave()
         self.df.clickSaveDraft()
         cl.allureLogs(test1)
+        #self.df.check()
 
 
 

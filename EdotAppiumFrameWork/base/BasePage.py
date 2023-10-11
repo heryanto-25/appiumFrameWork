@@ -2,7 +2,8 @@ import allure
 from allure_commons.types import AttachmentType
 from appium.webdriver.common.appiumby import AppiumBy
 from appium.webdriver.common.touch_action import TouchAction
-from selenium.common.exceptions import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
+from selenium.common.exceptions import ElementNotVisibleException, ElementNotSelectableException, \
+    NoSuchElementException, TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 import EdotAppiumFrameWork.utilities.CustomLogger as cl
@@ -50,7 +51,7 @@ class BasePage:
     def waitForElement(self, locatorvalue, locatorType):
         locatorType = locatorType.lower()
         element = None
-        wait = WebDriverWait(self.driver, 10, poll_frequency=1,
+        wait = WebDriverWait(self.driver, 5, poll_frequency=1,
                              ignored_exceptions=[ElementNotVisibleException, ElementNotSelectableException,
                                                  NoSuchElementException])
         if locatorType == "id":
@@ -182,3 +183,11 @@ class BasePage:
                 time.sleep(2)
                 self.log.info("Scroll element not found")
                 max_swipes +=1
+
+    def checking1(self, locatorvalue):
+            try:
+                button_commerce_page = WebDriverWait(self.driver, 10).until(
+                EC.visibility_of_element_located((AppiumBy.XPATH, locatorvalue))
+                ).click()
+            except TimeoutException:
+                self.log.info("Error: Cannot Tap Button Commerce Page")

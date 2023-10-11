@@ -68,3 +68,6 @@ class DemoAppForm(BasePage):
 
     def clickFollowing(self):
         self.clickElement(self._followingButton)
+
+    def check(self):
+        self.checking1(self._saveDraft)
