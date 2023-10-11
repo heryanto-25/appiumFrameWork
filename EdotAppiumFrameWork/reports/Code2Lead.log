@@ -1,0 +1,23 @@
+11/10/23 09:58:08 AM Wednesday - BasePage - INFO : Element found with LocatorType: xpath with the locatorValue :/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[6]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]/com.horcrux.svg.SvgView
+11/10/23 09:58:08 AM Wednesday - BasePage - INFO : Clicked on Element with LocatorType: xpath and with the locatorValue :/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[6]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[1]/com.horcrux.svg.SvgView
+11/10/23 09:58:09 AM Wednesday - BasePage - INFO : Element found with LocatorType: xpath with the locatorValue ://*[@resource-id = 'botSheetAddPhoto']
+11/10/23 09:58:09 AM Wednesday - BasePage - INFO : Clicked on Element with LocatorType: xpath and with the locatorValue ://*[@resource-id = 'botSheetAddPhoto']
+11/10/23 09:58:14 AM Wednesday - BasePage - INFO : Element found with LocatorType: xpath with the locatorValue :(//*[@class = 'android.widget.ImageView'])[1]
+11/10/23 09:58:15 AM Wednesday - BasePage - INFO : Clicked on Element with LocatorType: xpath and with the locatorValue :(//*[@class = 'android.widget.ImageView'])[1]
+11/10/23 09:58:19 AM Wednesday - BasePage - INFO : Element found with LocatorType: xpath with the locatorValue :(//*[@class = 'android.widget.ImageView'])[4]
+11/10/23 09:58:20 AM Wednesday - BasePage - INFO : Clicked on Element with LocatorType: xpath and with the locatorValue :(//*[@class = 'android.widget.ImageView'])[4]
+11/10/23 09:58:20 AM Wednesday - BasePage - INFO : Element found with LocatorType: xpath with the locatorValue ://android.widget.TextView[@text = 'Done']
+11/10/23 09:58:20 AM Wednesday - BasePage - INFO : Clicked on Element with LocatorType: xpath and with the locatorValue ://android.widget.TextView[@text = 'Done']
+11/10/23 09:58:21 AM Wednesday - BasePage - INFO : Element found with LocatorType: xpath with the locatorValue ://android.widget.TextView[@text = 'Continue']
+11/10/23 09:58:21 AM Wednesday - BasePage - INFO : Clicked on Element with LocatorType: xpath and with the locatorValue ://android.widget.TextView[@text = 'Continue']
+11/10/23 09:58:22 AM Wednesday - BasePage - INFO : Element found with LocatorType: xpath with the locatorValue ://android.widget.EditText[@text='Write a caption']
+11/10/23 09:58:23 AM Wednesday - BasePage - INFO : Send text  on Element with LocatorType: xpath and with the locatorValue ://android.widget.EditText[@text='Write a caption']
+11/10/23 09:58:34 AM Wednesday - BasePage - INFO : Element not found with LocatorType: xpath and with the locatorValue ://android.widget.TextView[@text = 'Save as Draft1']
+11/10/23 09:58:38 AM Wednesday - BasePage - INFO : Scroll element not found
+11/10/23 09:58:49 AM Wednesday - BasePage - INFO : Element not found with LocatorType: xpath and with the locatorValue ://android.widget.TextView[@text = 'Save as Draft1']
+11/10/23 09:58:53 AM Wednesday - BasePage - INFO : Scroll element not found
+11/10/23 09:59:03 AM Wednesday - BasePage - INFO : Element not found with LocatorType: xpath and with the locatorValue ://android.widget.TextView[@text = 'Save as Draft1']
+11/10/23 09:59:07 AM Wednesday - BasePage - INFO : Scroll element not found
+11/10/23 09:59:17 AM Wednesday - BasePage - INFO : Element not found with LocatorType: xpath and with the locatorValue ://android.widget.TextView[@text = 'Save as Draft1']
+11/10/23 09:59:21 AM Wednesday - BasePage - INFO : Scroll element not found
+11/10/23 09:59:26 AM Wednesday - BasePage - INFO : Element not found with LocatorType: xpath and with the locatorValue ://android.widget.TextView[@text = 'Save as Draft1']
